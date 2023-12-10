@@ -19,7 +19,7 @@
 
         public override string ToString()
         {
-            return $"{Source?.ToString()} -> {Target?.ToString()}";
+            return $" {Source?.ToString()} -> {Target?.ToString()}";
         }
     }
 }
